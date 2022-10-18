@@ -1,0 +1,56 @@
+.discover-section {
+    position: relative;
+}
+
+.discover-section-background {
+    background-color: #D7E6F5;
+    position: absolute;
+    height: 298px;
+    width: 100%;
+    z-index: -12;
+
+}
+
+.discover-section p {
+    font-family: none;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 20px;
+    line-height: 30px;
+    background-color: #D7E6F5;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    padding: 21px 5px;
+    row-gap: 20px;
+}
+
+.card-container .card {
+    padding: 0 9px;
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container .title {
+    font-size: 12px;
+    padding: 0px 0;
+    padding-top: 10px;
+    line-height: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    background-color: transparent;
+    font-family: system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Segoe UI", "Helvetica", Arial, sans-serif;
+}
+
+.card-container img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 5.9rem;
+}

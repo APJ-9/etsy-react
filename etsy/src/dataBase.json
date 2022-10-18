@@ -1,0 +1,31 @@
+{
+    "discover": {
+        "title": "Discover one-of-a-kind from independent creators",
+        "elemnts": [
+            {
+                "title": "Diwali",
+                "imgURL": "https://i.etsystatic.com/16676438/c/1954/1954/0/0/il/2054a3/1825350041/il_300x300.1825350041_rvfe.jpg"
+            },
+            {
+                "title": "Home & Living",
+                "imgURL": "https://i.etsystatic.com/24440180/r/il/cc8bc7/3094624694/il_300x300.3094624694_64up.jpg"
+            },
+            {
+                "title": "Clothing",
+                "imgURL": "https://i.etsystatic.com/25473399/r/il/6cfb1f/4088005474/il_300x300.4088005474_foea.jpg"
+            },
+            {
+                "title": "Jewellery",
+                "imgURL": "https://i.etsystatic.com/18077312/r/il/b10e09/2350226444/il_300x300.2350226444_odar.jpg"
+            },
+            {
+                "title": "Wall Art",
+                "imgURL": "https://i.etsystatic.com/30213933/c/1510/1510/342/335/il/ea97e0/3755997843/il_300x300.3755997843_9z68.jpg"
+            },
+            {
+                "title": "On Sale",
+                "imgURL": "https://i.etsystatic.com/27502657/r/il/34ea55/2915113681/il_300x300.2915113681_jqpd.jpg"
+            }
+        ]
+    }
+}
