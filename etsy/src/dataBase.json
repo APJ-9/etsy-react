@@ -27,5 +27,58 @@
                 "imgURL": "https://i.etsystatic.com/27502657/r/il/34ea55/2915113681/il_300x300.2915113681_jqpd.jpg"
             }
         ]
+    },
+    "recentlyViewed": {
+        "title": "Recently viewed & more",
+        "subTitle": "Show more from the Fabricrush shop",
+        "elements": [
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/59accf/3723664647/il_340x270.3723664647_65m5.jpg",
+                "oldPrice": "6,007",
+                "newPrice": "5,406",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/e07a26/3718661175/il_340x270.3718661175_dmbp.jpg",
+                "oldPrice": "6,007",
+                "newPrice": "5,406",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/22038449/r/il/1f5ce3/3177330566/il_340x270.3177330566_rwyg.jpg",
+                "oldPrice": "6,007",
+                "newPrice": "5,406",
+                "status": "Sold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/1ce600/3721119135/il_340x270.3721119135_9hxv.jpg",
+                "oldPrice": "6,007",
+                "newPrice": "5,406",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/29577107/r/il/6244e2/4025358196/il_340x270.4025358196_8jfb.jpg",
+                "oldPrice": "2,660",
+                "newPrice": "2,128",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/253390/4135768845/il_340x270.4135768845_3m7c.jpg",
+                "oldPrice": "4,255",
+                "newPrice": "3,829",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/36128229/r/il/dc7767/4004720170/il_340x270.4004720170_m2td.jpg",
+                "oldPrice": "1,914",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/221f01/3175449717/il_340x270.3175449717_7f2z.jpg",
+                "oldPrice": "4,255",
+                "newPrice": "3,829",
+                "status": "unsold"
+            }
+        ]
     }
 }

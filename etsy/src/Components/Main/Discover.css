@@ -54,3 +54,83 @@
     overflow: hidden;
     height: 5.9rem;
 }
+
+.recently-viewed {
+    padding-top: 32px;
+}
+
+.recently-viewed .title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16.5px;
+    color: #222;
+}
+
+.recently-viewed .sub-title {
+    text-align: center;
+    font-size: 13.5px;
+    padding-top: 1px;
+    color: #595959;
+}
+
+.recently-viewed-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    /* gap: 5px; */
+    column-gap: 6px;
+    row-gap: 3px;
+    padding-top: 10px;
+}
+
+.recently-viewed-container .card {
+    position: relative;
+}
+
+.recently-viewed-container .heart {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 12;
+    padding: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.recently-viewed-container .heart svg {
+    display: block;
+    fill: #fff;
+    height: 20px;
+    stroke: #000;
+    stroke-width: 2;
+    overflow: visible;
+}
+
+.recently-viewed-container .card:hover .heart {
+    display: block;
+}
+
+.recently-viewed-container img {
+    width: 100%;
+    aspect-ratio: 2/1.305;
+    object-fit: cover;
+}
+
+.recently-viewed-container .details {
+    position: absolute;
+    display: flex;
+    bottom: 12px;
+    left: 8px;
+    background-color: white;
+    padding: 7px 12px;
+    border-radius: 44px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #222;
+}
+
+.recently-viewed-container .details .old-price {
+    text-decoration: line-through;
+    font-weight: 400;
+}

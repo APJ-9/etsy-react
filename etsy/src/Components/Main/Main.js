@@ -1,11 +1,16 @@
 import React from 'react'
 import Discover from './Discover'
+import data from '../../dataBase.json'
+import RecentlyViewed from './RecentlyViewed'
 
 function Main() {
+    const discover = data.discover
+    const recentlyViewed = data.recentlyViewed
   return (
-    <div>
-        <Discover></Discover>
-    </div>
+    <>
+        <Discover discover={discover}></Discover>
+        <RecentlyViewed recentlyViewed={recentlyViewed}></RecentlyViewed>
+    </>
   )
 }
 
