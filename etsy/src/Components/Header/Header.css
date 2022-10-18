@@ -1,0 +1,76 @@
+.header {
+    padding: 7px 10px 0 9px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 14px;
+
+}
+
+.header-top .etsy-logo {
+    fill: #F1641E;
+    height: 30px;
+    width: 60px;
+}
+
+.sign-basket-heart {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 1px;
+}
+
+.sign-basket-heart .heart {
+    margin-right: 22px;
+}
+
+.sign-basket-heart .signin-btn {
+    font-weight: bold;
+    margin-right: 31px;
+    font-size: 13px;
+    padding-top: 1px;
+}
+
+.header button {
+    background-color: transparent;
+    border: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.header-top svg,
+.header-bottom svg {
+    height: 24px;
+    width: 24px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.search-section {
+    border: 1px solid #000;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.search-bar {
+    border: none;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.search-btn {
+    margin-right: 1px;
+    background-color: transparent;
+}
