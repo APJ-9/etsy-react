@@ -1,11 +1,13 @@
 .discover-section {
     position: relative;
+    margin-top: 56px;
+    width: 100vw;
 }
 
 .discover-section-background {
     background-color: #D7E6F5;
     position: absolute;
-    height: 298px;
+    height: 78%;
     width: 100%;
     z-index: -12;
 
@@ -26,12 +28,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     flex-wrap: wrap;
-    padding: 21px 5px;
+    padding: 21px 7px;
     row-gap: 20px;
 }
 
 .card-container .card {
-    padding: 0 9px;
+    padding: 0 0px;
     font-size: 10px;
     align-items: center;
     display: flex;
@@ -39,20 +41,21 @@
 }
 
 .card-container .title {
-    font-size: 12px;
-    padding: 0px 0;
-    padding-top: 10px;
-    line-height: normal;
+    font-size: 13px;
+    padding: 0px 7px;
+    padding-top: 7px;
+    line-height: 18px;
     font-weight: bold;
     letter-spacing: normal;
     background-color: transparent;
+    color: #222;
     font-family: system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Segoe UI", "Helvetica", Arial, sans-serif;
 }
 
 .card-container img {
     border-radius: 50%;
     overflow: hidden;
-    height: 5.9rem;
+    height: 5.4rem;
 }
 
 .recently-viewed {

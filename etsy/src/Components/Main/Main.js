@@ -5,14 +5,14 @@ import RecentlyViewed from './RecentlyViewed'
 import EditorsPick from './EditorsPick'
 
 function Main() {
-    const discover = data.discover
-    const recentlyViewed = data.recentlyViewed
-    const editorsPick = data.editorsPick
+  const discover = data.discover
+  const recentlyViewed = data.recentlyViewed
+  const editorsPick = data.editorsPick
   return (
     <>
-        <Discover discover={discover}></Discover>
-        <RecentlyViewed recentlyViewed={recentlyViewed}></RecentlyViewed>
-        <EditorsPick data={editorsPick}></EditorsPick>
+      <Discover discover={discover}></Discover>
+      {/* <RecentlyViewed recentlyViewed={recentlyViewed}></RecentlyViewed> */}
+      {/* <EditorsPick data={editorsPick}></EditorsPick> */}
     </>
   )
 }
