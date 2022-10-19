@@ -1,0 +1,66 @@
+.etsy-container {
+    background-color: #FDEBD2;
+    padding: 36px 30px;
+    color: #222;
+}
+
+.etsy-container .etsy-heading {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.etsy-container .sub-heading {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.etsy-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 36px;
+    margin-bottom: 6px;
+}
+
+.etsy-card-container .card {
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.etsy-card-container .card .main-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.etsy-card-container .card .sub-title {
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+}
+
+.etsy-card-container .question {
+    text-align: center;
+    font-size: 18px;
+}
+
+.etsy-card-container .question button {
+    background: none;
+    border: 2px solid #222;
+    padding: 12px 18px;
+    border-radius: 96px;
+    margin-top: 12px;
+    min-width: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #222;
+}
+
+.etsy-card-container .question button:focus {
+    outline: none;
+}
