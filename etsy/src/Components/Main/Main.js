@@ -19,7 +19,7 @@ function Main() {
       {/* <EditorsPick data={editorsPick}></EditorsPick> */}
       <ShopSelection data={shopSelection}></ShopSelection>
       <EmailSubscribe></EmailSubscribe>
-      <FreshBlog></FreshBlog>
+      <FreshBlog data={data.freshBlog}></FreshBlog>
     </>
   )
 }
