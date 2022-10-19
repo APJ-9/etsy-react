@@ -124,7 +124,7 @@
         ]
     },
     "shopOurSelection": {
-        "title": "Shop our selection",
+        "title": "Shop our selections",
         "elements": [
             {
                 "title": "The Diwali Shop",
@@ -135,16 +135,40 @@
                 "imgURL": "https://i.etsystatic.com/18899984/r/il/9dcc31/4228096205/il_340x270.4228096205_fueu.jpg"
             },
             {
+                "title": "Fashion Finds",
+                "imgURL": "https://i.etsystatic.com/17600118/c/1132/903/0/0/il/8b4129/2591412730/il_340x270.2591412730_abof.jpg"
+            },
+            {
                 "imgURL": "https://i.etsystatic.com/32541884/r/il/a56807/3849973862/il_340x270.3849973862_p1w4.jpg",
                 "title": "For your home"
             },
             {
-                "imgURL": "https://i.etsystatic.com/17600118/c/1132/903/0/0/il/8b4129/2591412730/il_340x270.2591412730_abof.jpg",
+                "imgURL": "https://i.etsystatic.com/30973456/c/1250/993/0/1148/il/7cfe1e/3769038215/il_340x270.3769038215_e2oq.jpg",
                 "title": "Jewellery shop"
             },
             {
                 "imgURL": "https://i.etsystatic.com/21689103/r/il/7d8081/3547847472/il_340x270.3547847472_2iqa.jpg",
                 "title": "Kitchen and dining"
+            }
+        ]
+    },
+    "freshBlog": {
+        "title": "Fresh from the blog",
+        "elements": [
+            {
+                "imgURL": "https://i.etsystatic.com/inv/03ca1a/4263836158/inv_620x495.4263836158_6ygrugiq.jpg?version=0",
+                "title": "Shoping Guides",
+                "subTitle": "13 Gorgeous Accessories for This Wedding Season"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/inv/781229/4295053145/inv_425x340.4295053145_2edho3n7.jpg?version=0",
+                "title": "Shoping Guides",
+                "subTitle": "11 Jackets and Scarves for That In-Between Weather"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/inv/25d482/4004818446/inv_425x340.4004818446_ag7rsamq.jpg?version=0",
+                "subTitle": "5 Ideas for a Sip and Night With Friends",
+                "title": "Inspiration"
             }
         ]
     }
