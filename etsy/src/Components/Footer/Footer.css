@@ -1,0 +1,130 @@
+.footer-section svg {
+    fill: white;
+    width: 24px;
+}
+
+.footer-top,
+.footer-mid,
+.footer-end {
+    padding: 1px 12px;
+}
+
+.footer-top {
+    background-color: #4D6BC6;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+}
+
+.footer-top svg {
+    margin-bottom: 6px;
+    width: 36px;
+}
+
+.footer-top .title {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-position: under;
+    margin: 0 12px;
+    cursor: help;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.footer-mid {
+    background-color: #2F466C;
+    padding: 12px 24px;
+    color: white;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+}
+
+.download-etsy {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-mid .etsy-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 4px 13px;
+    margin-top: 24px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+.footer-mid .etsy-button svg {
+    margin-right: 6px;
+    width: 24px;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media .icons {
+    margin-top: 21px;
+    margin-bottom: 16px;
+}
+
+.social-media .icons .icon {
+    padding: 6;
+    margin-left: 9px;
+    margin-right: 7px;
+    width: 36px;
+}
+
+
+.footer-end {
+    background-color: #232347;
+    padding: 18px 24px;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: white;
+}
+
+.footer-end .location {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 15px 21px 15px;
+}
+
+.footer-end .location svg {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.footer-end .copyright {
+    margin-bottom: 12px;
+    text-align: center;
+
+}
+
+.footer-end .links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.footer-end .links a {
+    color: white;
+    display: inline-block;
+    margin-right: 12px;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
