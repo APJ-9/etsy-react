@@ -55,3 +55,19 @@
     text-align: left;
     font-weight: 500;
 }
+
+@media screen and (min-width: 640px) {
+    .fresh-blog-cards {
+        flex-direction: row;
+    }
+
+    .fresh-blog-cards .card {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .shop-selection .title-container .title {
+        font-size: 28px;
+
+    }
+}

@@ -41,7 +41,7 @@ button:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 100%; */
+    width: 100%;
     min-width: 20px;
     height: 44px;
     background: rgba(34, 34, 34, 0.05);
@@ -89,4 +89,10 @@ button:focus {
     margin-right: 16px;
     margin-left: 9px;
     margin-bottom: 2px;
+}
+
+@media screen and (min-width: 480px) {
+    .etsy-logo {
+        height: 50px;
+    }
 }

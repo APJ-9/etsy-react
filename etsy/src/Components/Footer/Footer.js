@@ -28,7 +28,9 @@ function Footer() {
                             <p>Download the Etsy App</p>
                         </div>
                     </div>
+                    <div className="social-media-container">
                     <SocialMedia></SocialMedia>
+                    </div>
                 </div>
             </div>
             <div className="footer-end">
