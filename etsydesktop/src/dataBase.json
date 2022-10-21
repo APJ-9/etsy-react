@@ -300,6 +300,38 @@
             }
         ]
     },
+    "everydayInspiration": {
+        "smallText": "Editor's Picks",
+        "title": "Everyday inspiration",
+        "subTitle": "See more",
+        "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/Promotionals_-_DIY_Wall_Trophy_zmxtoc.mp4",
+        "elements": [
+            {
+                "price": "10,659",
+                "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/final_61961a2c1fab160101ccaf7d_471683_b5oji1.mp4"
+            },
+            {
+                "price": "3,851",
+                "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/IMG_8207_mnzhgs.mp4"
+            },
+            {
+                "price": "1,883",
+                "imgURL": "https://i.etsystatic.com/11901825/r/il/66e226/4143573747/il_300x300.4143573747_70bv.jpg"
+            },
+            {
+                "price": "3,423",
+                "imgURL": "https://i.etsystatic.com/14414441/r/il/473531/3603792575/il_300x300.3603792575_spc7.jpg"
+            },
+            {
+                "price": "2,568",
+                "imgURL": "https://i.etsystatic.com/7942677/c/2000/2000/0/0/il/4fba5c/3654605139/il_300x300.3654605139_mxr4.jpg"
+            },
+            {
+                "price": "1968",
+                "imgURL": "https://i.etsystatic.com/21689103/r/il/00433b/3127057561/il_300x300.3127057561_3l4r.jpg"
+            }
+        ]
+    },
     "freshBlog": {
         "title": "Fresh from the blog",
         "elements": [

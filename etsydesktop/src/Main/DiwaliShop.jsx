@@ -18,10 +18,8 @@ function DiwaliShop({data}) {
             DB.elements.map((card,idx)=>
                 <div key={idx} className={`card card-${idx}`}>
                   <VideoPlayer card={card}></VideoPlayer>
+                  {console.log(card)}
                 </div>
-            
-                
-            
             )
         }
         <div className="text-area">

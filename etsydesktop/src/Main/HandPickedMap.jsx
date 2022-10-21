@@ -2,7 +2,7 @@ import React from 'react'
 import Heart from './Heart'
 
 function HandPickedMap({data}) {
-    console.log(data.obj)
+    // console.log(data.obj)
     const DB = data.obj 
   return (
     <div className='image-container'>

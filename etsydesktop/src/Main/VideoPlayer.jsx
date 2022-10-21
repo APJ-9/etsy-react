@@ -15,7 +15,7 @@ function VideoPlayer({card}) {
     <div className='vi-container' onMouseEnter={handleVideoPlay} onMouseLeave={handleVideoStop}>
                   <Heart></Heart>
                   {  
-                   card.type === 'video' ? 
+                   card.videoURL ? 
                     // <div className="vi-container">
                         <> 
                           <ReactPlayer width='100%' height='100%' url={card.videoURL} playing={videoState} ></ReactPlayer>
@@ -29,9 +29,12 @@ function VideoPlayer({card}) {
                         <img className='diwali-image' src={card.imgURL}/>
                     // </div>
                   } 
-                  <div className="price">
-                    ₹&nbsp;{card.price}
-                  </div>
+                  {
+                    card.price && <div className="price">
+                                    ₹&nbsp;{card.price}
+                                  </div>
+                  }
+                  
                 </div>
   )
 }

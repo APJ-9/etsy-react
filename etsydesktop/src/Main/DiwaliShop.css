@@ -24,13 +24,13 @@
 
 }
 
-.head-elements .small-text {
+.small-text {
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
 }
 
-.head-elements .main-title {
+.main-title {
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
@@ -84,7 +84,7 @@
     aspect-ratio: 1;
 }
 
-.diwali-shop-container .head-elements .sub-title {
+.sub-title {
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -97,7 +97,7 @@
     transition: transform .3s;
 }
 
-.head-elements .sub-title:hover .arrow {
+.sub-title:hover .arrow {
     transform: translateX(10px);
 }
 
