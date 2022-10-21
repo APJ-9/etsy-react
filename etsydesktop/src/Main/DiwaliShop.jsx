@@ -1,10 +1,11 @@
 import React from 'react'
 import './DiwaliShop.css'
-import Heart from './Heart'
+import VideoPlayer from './VideoPlayer'
 
 function DiwaliShop({data}) {
     const DB = data
     console.log(DB)
+
   return (
     <div className='diwali-shop-container'>
       
@@ -15,25 +16,11 @@ function DiwaliShop({data}) {
         </div>
         {
             DB.elements.map((card,idx)=>
-            
-                <div className={`card card-${idx}`} key={idx}>
-                  <Heart></Heart>
-                  {  
-                   card.type === 'video' ? 
-                    // <div className="vi-container">
-                        <> 
-                          <video className='diwali-video'><source src={card.videoURL} type="video/mp4" controls/></video>
-                          <div className="play-btn">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="24" height="24"><polygon points="4 4 4 20 20 12 4 4" fill="#222222"></polygon></svg>
-                          </div>
-                        </>
-                    // </div> 
-                    :
-                    //  <div className="vi-container">
-                        <img className='diwali-image' src={card.imgURL}/>
-                    // </div>
-                  } 
+                <div key={idx} className={`card card-${idx}`}>
+                  <VideoPlayer card={card}></VideoPlayer>
                 </div>
+            
+                
             
             )
         }
