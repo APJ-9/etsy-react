@@ -1,17 +1,10 @@
 .diwali-shop-container {
     padding: 0 36px;
-    background-color: yellow;
-    display: grid;
-    grid-template-columns: 1fr .75fr .5fr .75fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-}
-
-.vi-container {
-    min-height: 40px;
-    max-width: 207px;
-    aspect-ratio: 1;
-    height: 100%;
-    width: 100%;
+    gap: 24px;
 }
 
 .diwali-video,
@@ -20,4 +13,106 @@
     height: 100%;
     object-fit: cover;
 
+}
+
+.diwali-shop-container .head-elements {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+
+}
+
+.head-elements .small-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.head-elements .main-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 6px;
+    padding-bottom: 24px;
+}
+
+.diwali-shop-container .card {
+    display: flex;
+    max-height: 270px;
+    background-color: antiquewhite;
+    /* width: 100%; */
+    color: #595959;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.diwali-shop-container .text-area {
+    display: flex;
+    align-items: center;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+}
+
+.diwali-shop-container .head-elements,
+.diwali-shop-container .card-3 {
+    flex-grow: 1;
+    flex-basis: 30.33333%;
+    max-width: 30.33333%;
+}
+
+.diwali-shop-container .card-0,
+.diwali-shop-container .card-2,
+.diwali-shop-container .card-4,
+.diwali-shop-container .text-area {
+    flex-grow: 1;
+    flex-basis: 22%;
+    max-width: 23%;
+    aspect-ratio: 1;
+}
+
+.diwali-shop-container .card-1,
+.diwali-shop-container .card-5 {
+    flex-grow: 1;
+    flex-basis: 14.66667%;
+    max-width: 14.66667%;
+    aspect-ratio: 1;
+}
+
+.head-elements .sub-title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.arrow {
+    width: 18px;
+    margin-left: 6px;
+    transition: transform .3s;
+}
+
+.head-elements .sub-title:hover .arrow {
+    transform: translateX(10px);
+}
+
+.play-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 10px;
+}
+
+.play-btn svg {
+    margin-left: 3px;
 }

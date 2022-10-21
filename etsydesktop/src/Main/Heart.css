@@ -1,0 +1,23 @@
+.heart {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    font-weight: bold;
+    top: 20px;
+    right: 8px;
+    padding: 16px 5px;
+    height: 30px;
+    /* aspect-ratio: 1; */
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0;
+    transition: all .2s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover .heart {
+    top: 10px;
+    opacity: 1;
+}
