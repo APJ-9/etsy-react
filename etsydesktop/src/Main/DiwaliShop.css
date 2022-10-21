@@ -1,0 +1,23 @@
+.diwali-shop-container {
+    padding: 0 36px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr .75fr .5fr .75fr;
+    width: 100%;
+}
+
+.vi-container {
+    min-height: 40px;
+    max-width: 207px;
+    aspect-ratio: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.diwali-video,
+.diwali-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}

@@ -1,0 +1,76 @@
+.discover-section {
+    position: relative;
+    margin-top: 125px;
+    width: 100%;
+}
+
+.background {
+    background-color: #D7E6F5;
+    position: absolute;
+    top: 0;
+    height: 124px;
+    width: 100%;
+    z-index: -12;
+
+}
+
+.discover-section .heading {
+    font-family: none;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 20px;
+    line-height: 30px;
+    background-color: #D7E6F5;
+}
+
+.card-container {
+    display: flex;
+    padding: 21px 7px;
+    row-gap: 20px;
+    justify-content: space-around;
+    /* background-color: #D7E6F5; */
+}
+
+.card-container .card {
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+
+}
+
+.discover-section .card-container .title {
+    font-size: 13px;
+    padding: 0px 7px;
+    padding-top: 7px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-align: center;
+    background-color: transparent;
+    color: #222;
+    font-family: system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Segoe UI", "Helvetica", Arial, sans-serif;
+}
+
+.card-container img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 6.4rem;
+}
+
+.card-container .card:hover img {
+    transform: scale(1.1);
+}
+
+.card-container .card:hover .title {
+    color: #555;
+}
+
+.card-container .card:hover {
+    border-bottom: 2px solid #222;
+
+}
