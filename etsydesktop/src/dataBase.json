@@ -159,6 +159,118 @@
             }
         ]
     },
+    "handPickedItem": {
+        "modernFarmhouse": [
+            {
+                "imgURL": "https://i.etsystatic.com/22785299/c/3000/2000/0/0/il/7228dc/2562556267/il_680x540.2562556267_onak.jpg",
+                "oldPrice": "7,540"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/9089295/r/il/31ceb1/686266185/il_340x270.686266185_mmmf.jpg",
+                "oldPrice": "9,860"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/10745498/r/il/c489d8/1337079044/il_340x270.1337079044_3imt.jpg",
+                "oldPrice": "4,4590"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/9884888/c/1361/1082/773/837/il/8defd3/3401943695/il_680x540.3401943695_lavk.jpg",
+                "oldPrice": "4,029"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/6734380/r/il/813bac/1105220681/il_340x270.1105220681_7c92.jpg",
+                "oldPrice": "10,461"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/7450512/c/1242/986/0/15/il/b5dda3/1567445612/il_340x270.1567445612_bo99.jpg",
+                "oldPrice": "17,149"
+            }
+        ],
+        "bohoDecor": [
+            {
+                "imgURL": "https://i.etsystatic.com/16087812/c/1346/1070/736/115/il/33787d/2443996649/il_680x540.2443996649_hksv.jpg",
+                "oldPrice": "671",
+                "newPrice": "469"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/26843448/c/2400/1908/0/761/il/afa750/3300454008/il_340x270.3300454008_hx7g.jpg",
+                "oldPrice": "16,275"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/9121310/r/il/ec9ef2/3484180876/il_340x270.3484180876_avm9.jpg",
+                "oldPrice": "3,822"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/26797990/r/il/24efce/2915609296/il_680x540.2915609296_lq0j.jpg",
+                "oldPrice": "4,969"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/24971419/r/il/de2334/2515062562/il_340x270.2515062562_kzvh.jpg",
+                "oldPrice": "771"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/12584295/c/1769/1406/136/605/il/e15d5f/3612210010/il_340x270.3612210010_tuw7.jpg",
+                "newPrice": "11,109",
+                "oldPrice": "13,886"
+            }
+        ],
+        "eclecticDecor": [
+            {
+                "imgURL": "https://i.etsystatic.com/25426614/c/945/751/177/0/il/b01e51/3022557643/il_680x540.3022557643_71r3.jpg",
+                "oldPrice": "3,766"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/17120056/c/750/595/0/705/il/5d3443/1670858982/il_340x270.1670858982_6dkq.jpg",
+                "oldPrice": "18,348"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/7692988/c/1841/1463/275/810/il/bed95e/2617394149/il_340x270.2617394149_htv6.jpg",
+                "oldPrice": "10,099"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/26666586/c/2250/1788/0/192/il/539eb0/3016062451/il_680x540.3016062451_eofj.jpg",
+                "oldPrice": "32,095",
+                "newPrice": "27,281"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/23554001/r/il/9026fa/3031082509/il_340x270.3031082509_qwsx.jpg",
+                "oldPrice": "105,251",
+                "newPrice": "84,201"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/7815883/r/il/2e3826/3805653996/il_340x270.3805653996_43pd.jpg",
+                "newPrice": "28,500",
+                "oldPrice": "47,500"
+            }
+        ],
+        "minimalist": [
+            {
+                "imgURL": "https://i.etsystatic.com/12929994/r/il/d4b998/1056352787/il_680x540.1056352787_rrbw.jpg",
+                "oldPrice": "188,290"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/8675800/r/il/3c77c2/1829960281/il_340x270.1829960281_kspc.jpg",
+                "oldPrice": "23,877"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/17849024/r/il/fb183e/1601754674/il_340x270.1601754674_qwt8.jpg",
+                "oldPrice": "13,009"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/17849024/r/il/fb183e/1601754674/il_340x270.1601754674_qwt8.jpg",
+                "oldPrice": "1,257"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/8287552/r/il/1c6392/1402403197/il_340x270.1402403197_jy99.jpg",
+                "oldPrice": "60,184"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/13346155/r/il/8cec57/1173836965/il_340x270.1173836965_b5yc.jpg",
+                "newPrice": "2,212",
+                "oldPrice": "2,765"
+            }
+        ]
+    },
     "shopOurSelection": {
         "title": "Shop our selections",
         "elements": [

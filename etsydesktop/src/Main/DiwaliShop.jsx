@@ -4,7 +4,7 @@ import VideoPlayer from './VideoPlayer'
 
 function DiwaliShop({data}) {
     const DB = data
-    console.log(DB)
+    // console.log(DB)
 
   return (
     <div className='diwali-shop-container'>

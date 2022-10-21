@@ -17,6 +17,10 @@
     justify-content: center;
 }
 
+.card {
+    position: relative;
+}
+
 .card:hover .heart {
     top: 10px;
     opacity: 1;

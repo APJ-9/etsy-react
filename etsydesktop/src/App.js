@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <Main/>
+      <div className="todelete" style={{width:'100%',height:"2000px",backgroundColor:'antiquewhite'}}></div>
     </div>
   );
 }
