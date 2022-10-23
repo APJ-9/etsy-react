@@ -3,6 +3,7 @@ import data from '../dataBase.json'
 import Discover from './Discover'
 import DiwaliShop from './DiwaliShop'
 import EverydayInspiration from './EverydayInspiration'
+import FreshBlog from './FreshBlog'
 import HandPickedItem from './HandPickedItem'
 import ShopSelection from './ShopSelection'
 
@@ -18,6 +19,7 @@ function Main() {
         <HandPickedItem data={DB.handPickedItem}/>
         <EverydayInspiration data={DB.everydayInspiration}/>
         <ShopSelection data={DB.shopOurSelectionDesk}/>
+        <FreshBlog data={DB.freshBlog}/>
     </div>
   )
 }
