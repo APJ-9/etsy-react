@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './EverydayInspiration.css'
 import Heart from './Heart'
 import VideoPlayer from './VideoPlayer'
@@ -6,6 +6,13 @@ import VideoPlayer from './VideoPlayer'
 function EverydayInspiration({data}) {
     console.log(data)
     console.log(data.videoURL)
+    const [videoState,setVideoState] = useState(false)
+    const handleVideoPlay=()=>{
+     setVideoState(true)
+    }
+    const handleVideoStop =() =>{
+      setVideoState(false)
+    }
   return (
     <div className='everyday-inspiration-container'>
         <div className="ei-section1">
@@ -16,7 +23,7 @@ function EverydayInspiration({data}) {
             </div>
             {
                 data.elements.map((card,idx)=>
-                <div className="card">
+                <div key={idx} className="card">
                     <VideoPlayer card={card}/>
                 </div>
                 )
@@ -24,8 +31,11 @@ function EverydayInspiration({data}) {
  
 
         </div>
-        <div className="ei-section2">
+        <div className="ei-section2" onMouseEnter={handleVideoPlay} onMouseLeave={handleVideoStop}>
             <VideoPlayer card={data} />
+            {/* <video onMouseEnter={handleVideoPlay} onMouseLeave={handleVideoStop} width="100%" height="100%" poster="https://i.etsystatic.com/19698147/r/il/611f5f/3139648139/il_794xN.3139648139_srk0.jpg">
+                <source src="https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/Promotionals_-_DIY_Wall_Trophy_zmxtoc.mp4" type="video/mp4"/>
+            </video> */}
             <Heart/>
         </div>
     </div>

@@ -4,6 +4,7 @@ import Discover from './Discover'
 import DiwaliShop from './DiwaliShop'
 import EverydayInspiration from './EverydayInspiration'
 import HandPickedItem from './HandPickedItem'
+import ShopSelection from './ShopSelection'
 
 const DB = data
 
@@ -16,7 +17,7 @@ function Main() {
         <DiwaliShop data={DB.diwaliShop}/>
         <HandPickedItem data={DB.handPickedItem}/>
         <EverydayInspiration data={DB.everydayInspiration}/>
-
+        <ShopSelection data={DB.shopOurSelectionDesk}/>
     </div>
   )
 }

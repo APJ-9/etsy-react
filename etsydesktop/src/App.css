@@ -3,3 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+}

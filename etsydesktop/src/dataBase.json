@@ -300,6 +300,32 @@
             }
         ]
     },
+    "shopOurSelectionDesk": {
+        "title": "Shop our selections",
+        "subTitle": "Curated collections hand-picked by Etsy editors",
+        "elements": [
+            {
+                "title": "The Diwali Shop",
+                "imgURL": "https://i.etsystatic.com/22038449/r/il/d7ad4f/4046275650/il_340x270.4046275650_o3mk.jpg"
+            },
+            {
+                "title": "Fashion Finds",
+                "imgURL": "https://i.etsystatic.com/17600118/c/1132/903/0/0/il/8b4129/2591412730/il_340x270.2591412730_abof.jpg"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/32541884/r/il/a56807/3849973862/il_340x270.3849973862_p1w4.jpg",
+                "title": "For your home"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/30973456/c/1250/993/0/1148/il/7cfe1e/3769038215/il_340x270.3769038215_e2oq.jpg",
+                "title": "Jewellery shop"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21689103/r/il/7d8081/3547847472/il_340x270.3547847472_2iqa.jpg",
+                "title": "Kitchen and dining"
+            }
+        ]
+    },
     "everydayInspiration": {
         "smallText": "Editor's Picks",
         "title": "Everyday inspiration",
@@ -338,17 +364,20 @@
             {
                 "imgURL": "https://i.etsystatic.com/inv/03ca1a/4263836158/inv_620x495.4263836158_6ygrugiq.jpg?version=0",
                 "title": "Shoping Guides",
-                "subTitle": "13 Gorgeous Accessories for This Wedding Season"
+                "subTitle": "13 Gorgeous Accessories for This Wedding Season",
+                "paragraph": "Shop classic and trendy accessories to complete your preparation for the all the shaadi functions."
             },
             {
                 "imgURL": "https://i.etsystatic.com/inv/781229/4295053145/inv_425x340.4295053145_2edho3n7.jpg?version=0",
                 "title": "Shoping Guides",
-                "subTitle": "11 Jackets and Scarves for That In-Between Weather"
+                "subTitle": "11 Jackets and Scarves for That In-Between Weather",
+                "paragraph": "From pashmina stoles to reversible jackets, these wardrobe essentials will become your fall favourites."
             },
             {
                 "imgURL": "https://i.etsystatic.com/inv/25d482/4004818446/inv_425x340.4004818446_ag7rsamq.jpg?version=0",
                 "subTitle": "5 Ideas for a Sip and Night With Friends",
-                "title": "Inspiration"
+                "title": "Inspiration",
+                "paragraph": "Discover beginner-friendly ideas and exact steps for hosting a fun sip and paint night with friends."
             }
         ]
     },
