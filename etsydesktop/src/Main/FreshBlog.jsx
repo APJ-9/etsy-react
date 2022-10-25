@@ -3,7 +3,7 @@ import './FreshBlog.css'
 import MapCard from './MapCard'
 
 function FreshBlog({data}) {
-    console.log(data)
+    // console.log(data)
   return (
     <div className='freshblog'>
         <div className="title-container">

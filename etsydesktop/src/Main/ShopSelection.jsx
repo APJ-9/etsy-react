@@ -6,7 +6,7 @@ import MapCard from './MapCard'
 function ShopSelection({data}) {
     const title = data.title
     const elements = data.elements
-    console.log(elements)
+    // console.log(elements)
     return (
         <div className='shop-selection'>
             <div className="title-container">
