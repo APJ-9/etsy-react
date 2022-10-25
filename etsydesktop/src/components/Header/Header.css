@@ -2,11 +2,13 @@
     padding: 12px 36px 0 36px;
     width: 100%;
     border-bottom: 2px solid #f4f4f4;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 12;
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* z-index: 12; */
     background-color: white;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .header-top {

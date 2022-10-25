@@ -33,6 +33,12 @@
 }
 
 .footer-mid {
+    /* background-color: #2F466C; */
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-mid-background {
     background-color: #2F466C;
     padding: 12px 24px;
     color: white;
@@ -60,7 +66,16 @@
 }
 
 .sub-footer {
-    /* display: none; */
+    display: none;
+}
+
+.sub-footer.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-footer.active>* {
+    padding: 5px 30px;
 }
 
 .footer-mid .etsy-button {
@@ -78,7 +93,7 @@
 
 .footer-mid .etsy-button svg {
     margin-right: 6px;
-    width: 24px;
+    min-width: 24px;
 }
 
 .social-media-container {
@@ -99,7 +114,7 @@
 }
 
 
-.footer-end {
+.footer-end-background {
     background-color: #232347;
     padding: 18px 24px;
     font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
@@ -123,9 +138,24 @@
 }
 
 .footer-end .copyright {
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    padding-top: 1px;
+    letter-spacing: .5px;
+    margin-bottom: 12px;
+}
 
+.footer-end .other-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer-end .links {
@@ -133,17 +163,55 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 0 5px;
+    /* margin: 0 12px; */
 }
+
 
 .footer-end .links a {
     color: white;
     display: inline-block;
-    margin-right: 12px;
+    padding: 0 7px;
     font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
     letter-spacing: 0.5px;
     white-space: nowrap;
+}
+
+.footer-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+    .footer-end .copyright {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .footer-list-elements {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sub-footer {
+        display: block;
+    }
+
+    .footer-section svg {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .footer-end {
+        flex-direction: row;
+    }
 }

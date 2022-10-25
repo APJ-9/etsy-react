@@ -1,15 +1,18 @@
 .discover-section {
     position: relative;
-    margin-top: 125px;
+    /* margin-top: 125px; */
     width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-.background {
+.discover-section .background {
     background-color: #D7E6F5;
     position: absolute;
     top: 0;
+    left: -400px;
     height: 124px;
-    width: 100%;
+    width: 200%;
     z-index: -12;
 
 }
@@ -25,7 +28,7 @@
     background-color: #D7E6F5;
 }
 
-.card-container {
+.discover-section .card-container {
     display: flex;
     padding: 21px 7px;
     row-gap: 20px;
@@ -33,7 +36,7 @@
     /* background-color: #D7E6F5; */
 }
 
-.card-container .card {
+.discover-section .card-container .card {
     font-size: 10px;
     align-items: center;
     display: flex;
@@ -43,7 +46,7 @@
 
 }
 
-.discover-section .card-container .title {
+.discover-section .card-container .title .main-title {
     font-size: 13px;
     padding: 0px 7px;
     padding-top: 7px;
@@ -56,21 +59,21 @@
     font-family: system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Segoe UI", "Helvetica", Arial, sans-serif;
 }
 
-.card-container img {
+.discover-section .card-container img {
     border-radius: 50%;
     overflow: hidden;
     height: 6.4rem;
 }
 
-.card-container .card:hover img {
+.discover-section .card-container .card:hover img {
     transform: scale(1.1);
 }
 
-.card-container .card:hover .title {
+.discover-section .card-container .card:hover .title {
     color: #555;
 }
 
-.card-container .card:hover {
+.discover-section .card-container .card:hover {
     border-bottom: 2px solid #222;
 
 }

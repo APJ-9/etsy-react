@@ -1,6 +1,8 @@
 .hand-picked-section {
     font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
     margin: 60px 12px 90px 12px;
+    max-width: 1400px;
+    margin: 0 auto;
 
 }
 

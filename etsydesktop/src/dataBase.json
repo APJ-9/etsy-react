@@ -1,36 +1,119 @@
 {
     "header": [
         {
-            "title": "Diwali Favourites",
-            "elements": []
+            "title": "Diwali Favourites"
         },
         {
             "title": "Jewellery & Accessories",
-            "elements": []
+            "elements": {
+                "title": "All Jewellery & Accessories testing",
+                "list": [
+                    {
+                        "id": "1",
+                        "name": "Accessories",
+                        "element": [
+                            {
+                                "heading": "Hats & Caps",
+                                "subHeading": [
+                                    "Beanies & Winter Hats"
+                                ]
+                            },
+                            {
+                                "heading": "Hair Accessories",
+                                "subHeading": [
+                                    "Headbands",
+                                    "Fascinators & Mini Hats",
+                                    "Hairsliders & Clips",
+                                    "Ties & Elastics",
+                                    "Wreaths & Tiaras",
+                                    "Gajras",
+                                    "Maang Tikkas"
+                                ]
+                            },
+                            {
+                                "heading": "Sunglasses"
+                            },
+                            {
+                                "heading": "Scarves & Wraps"
+                            },
+                            {
+                                "heading": "Belts & Braces"
+                            },
+                            {
+                                "heading": "Keychains & Lanyards"
+                            },
+                            {
+                                "heading": "Cosmetic & Toiletry Bags"
+                            },
+                            {
+                                "heading": "Gloves & Mittens"
+                            },
+                            {
+                                "heading": "Umbrellas & Rain Accessories"
+                            },
+                            {
+                                "heading": "Wallets & Money Clips"
+                            },
+                            {
+                                "heading": "Watches"
+                            },
+                            {
+                                "heading": "Brooches"
+                            },
+                            {
+                                "heading": "Suit & Tie Accessories",
+                                "subHeading": [
+                                    "Cuff Links"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "name": "Bags & Purses"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Necklaces"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Rings"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Earrings"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Bracelets"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Body Jewellery"
+                    }
+                ],
+                "end": "All Jewellery",
+                "imgURL": "https://i.etsystatic.com/30973456/c/1250/993/0/1148/il/7cfe1e/3769038215/il_340x270.3769038215_e2oq.jpg"
+            }
         },
         {
-            "title": "Cloathing & Shoes",
-            "elements": []
+            "title": "Cloathing & Shoes"
         },
         {
-            "title": "Home & Living",
-            "elements": []
+            "title": "Home & Living"
         },
         {
-            "title": "Wedding & Party",
-            "elements": []
+            "title": "Wedding & Party"
         },
         {
-            "title": "Toys & Entertainment",
-            "elements": []
+            "title": "Toys & Entertainment"
         },
         {
-            "title": "Arts & Collection",
-            "elements": []
+            "title": "Arts & Collection"
         },
         {
-            "title": "Craft Supplies",
-            "elements": []
+            "title": "Craft Supplies"
         }
     ],
     "discover": {

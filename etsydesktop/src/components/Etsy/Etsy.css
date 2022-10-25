@@ -1,8 +1,15 @@
-.etsy-container {
+.etsy-conatainer-background {
+
     background-color: #FDEBD2;
+}
+
+.etsy-container {
     padding: 36px 30px;
     color: #222;
+    max-width: 1400px;
+    margin: 0 auto;
 }
+
 
 .etsy-container .etsy-heading {
     font-family: 'Times New Roman', Times, serif;
