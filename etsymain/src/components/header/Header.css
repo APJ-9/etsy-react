@@ -1,0 +1,58 @@
+.header {
+    padding: 0 12px;
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+    background-color: white;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.etsy-logo {
+    fill: #F1641E;
+    /* margin: 1px 6px 1px 1px; */
+    width: 60px;
+}
+
+.icons-and-btn {
+    display: flex;
+    align-items: center;
+}
+
+.icons-and-btn .sign-in {
+    white-space: nowrap;
+    border: none;
+    background: none;
+    font-weight: 600;
+    padding: 9px 15px;
+    border-radius: 50px;
+}
+
+.svg-container-background {
+    padding: 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.svg-container-background:hover {
+    background-color: #f4f4f4;
+}
+
+.svg-container {
+    height: 24px;
+    aspect-ratio: 1/1;
+    width: 24px;
+}
+
+.header-bottom {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}

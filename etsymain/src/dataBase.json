@@ -1,0 +1,524 @@
+{
+    "header": [
+        {
+            "title": "Diwali Favourites"
+        },
+        {
+            "title": "Jewellery & Accessories",
+            "elements": {
+                "title": "All Jewellery & Accessories testing",
+                "list": [
+                    {
+                        "id": "1",
+                        "name": "Accessories",
+                        "element": [
+                            {
+                                "heading": "Hats & Caps",
+                                "subHeading": [
+                                    "Beanies & Winter Hats"
+                                ]
+                            },
+                            {
+                                "heading": "Hair Accessories",
+                                "subHeading": [
+                                    "Headbands",
+                                    "Fascinators & Mini Hats",
+                                    "Hairsliders & Clips",
+                                    "Ties & Elastics",
+                                    "Wreaths & Tiaras",
+                                    "Gajras",
+                                    "Maang Tikkas"
+                                ]
+                            },
+                            {
+                                "heading": "Sunglasses"
+                            },
+                            {
+                                "heading": "Scarves & Wraps"
+                            },
+                            {
+                                "heading": "Belts & Braces"
+                            },
+                            {
+                                "heading": "Keychains & Lanyards"
+                            },
+                            {
+                                "heading": "Cosmetic & Toiletry Bags"
+                            },
+                            {
+                                "heading": "Gloves & Mittens"
+                            },
+                            {
+                                "heading": "Umbrellas & Rain Accessories"
+                            },
+                            {
+                                "heading": "Wallets & Money Clips"
+                            },
+                            {
+                                "heading": "Watches"
+                            },
+                            {
+                                "heading": "Brooches"
+                            },
+                            {
+                                "heading": "Suit & Tie Accessories",
+                                "subHeading": [
+                                    "Cuff Links"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "name": "Bags & Purses"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Necklaces"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Rings"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Earrings"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Bracelets"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Body Jewellery"
+                    }
+                ],
+                "end": "All Jewellery",
+                "imgURL": "https://i.etsystatic.com/30973456/c/1250/993/0/1148/il/7cfe1e/3769038215/il_340x270.3769038215_e2oq.jpg"
+            }
+        },
+        {
+            "title": "Cloathing & Shoes"
+        },
+        {
+            "title": "Home & Living"
+        },
+        {
+            "title": "Wedding & Party"
+        },
+        {
+            "title": "Toys & Entertainment"
+        },
+        {
+            "title": "Arts & Collection"
+        },
+        {
+            "title": "Craft Supplies"
+        }
+    ],
+    "discover": {
+        "title": "Discover one-of-a-kind from independent creators",
+        "elemnts": [
+            {
+                "title": "Diwali",
+                "imgURL": "https://i.etsystatic.com/16676438/c/1954/1954/0/0/il/2054a3/1825350041/il_300x300.1825350041_rvfe.jpg"
+            },
+            {
+                "title": "Home & Living",
+                "imgURL": "https://i.etsystatic.com/24440180/r/il/cc8bc7/3094624694/il_300x300.3094624694_64up.jpg"
+            },
+            {
+                "title": "Clothing",
+                "imgURL": "https://i.etsystatic.com/25473399/r/il/6cfb1f/4088005474/il_300x300.4088005474_foea.jpg"
+            },
+            {
+                "title": "Jewellery",
+                "imgURL": "https://i.etsystatic.com/18077312/r/il/b10e09/2350226444/il_300x300.2350226444_odar.jpg"
+            },
+            {
+                "title": "Wall Art",
+                "imgURL": "https://i.etsystatic.com/30213933/c/1510/1510/342/335/il/ea97e0/3755997843/il_300x300.3755997843_9z68.jpg"
+            },
+            {
+                "title": "On Sale",
+                "imgURL": "https://i.etsystatic.com/27502657/r/il/34ea55/2915113681/il_300x300.2915113681_jqpd.jpg"
+            }
+        ]
+    },
+    "recentlyViewed": {
+        "title": "Recently viewed & more",
+        "subTitle": "Show more from the Fabricrush shop",
+        "elements": [
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/59accf/3723664647/il_340x270.3723664647_65m5.jpg",
+                "oldPrice": "6,007",
+                "newPrice": "5,406",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/e07a26/3718661175/il_340x270.3718661175_dmbp.jpg",
+                "oldPrice": "6,007",
+                "newPrice": "5,406",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/22038449/r/il/1f5ce3/3177330566/il_340x270.3177330566_rwyg.jpg",
+                "oldPrice": "6,007",
+                "newPrice": "5,406",
+                "status": "Sold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/1ce600/3721119135/il_340x270.3721119135_9hxv.jpg",
+                "oldPrice": "6,007",
+                "newPrice": "5,406",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/29577107/r/il/6244e2/4025358196/il_340x270.4025358196_8jfb.jpg",
+                "oldPrice": "2,660",
+                "newPrice": "2,128",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/253390/4135768845/il_340x270.4135768845_3m7c.jpg",
+                "oldPrice": "4,255",
+                "newPrice": "3,829",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/36128229/r/il/dc7767/4004720170/il_340x270.4004720170_m2td.jpg",
+                "oldPrice": "1,914",
+                "status": "unsold"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21989195/r/il/221f01/3175449717/il_340x270.3175449717_7f2z.jpg",
+                "oldPrice": "4,255",
+                "newPrice": "3,829",
+                "status": "unsold"
+            }
+        ]
+    },
+    "diwaliShop": {
+        "smallText": "Editor's Picks",
+        "title": "The Diwali Shop",
+        "subTitle": "Shop these unique finds",
+        "paragraph": "Add to Favourites Make your celebrations even more special this year with beautiful items from local sellers",
+        "elements": [
+            {
+                "type": "video",
+                "status": "unsold",
+                "price": "1,840",
+                "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/ezgif.com-gif-maker_1_j8wyq2.mp4"
+            },
+            {
+                "type": "video",
+                "status": "unsold",
+                "price": "3,407",
+                "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/VID_20220815_165013_b8nou4.mp4"
+            },
+            {
+                "type": "video",
+                "status": "unsold",
+                "price": "2,130",
+                "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/VID_20220831_083646_wtc2x8.mp4"
+            },
+            {
+                "type": "image",
+                "status": "unsold",
+                "price": "2,641",
+                "imgURL": "https://i.etsystatic.com/17612918/c/1945/1546/490/332/il/821bd7/3550189568/il_680x540.3550189568_n5cq.jpg"
+            },
+            {
+                "type": "video",
+                "status": "unsold",
+                "price": "2,130",
+                "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/VID_20220827_094115_wcqask.mp4"
+            },
+            {
+                "type": "image",
+                "status": "unsold",
+                "price": "852",
+                "imgURL": "https://i.etsystatic.com/16676438/c/1954/1552/0/114/il/2054a3/1825350041/il_680x540.1825350041_rvfe.jpg"
+            }
+        ]
+    },
+    "handPickedItem": {
+        "modernFarmhouse": [
+            {
+                "imgURL": "https://i.etsystatic.com/22785299/c/3000/2000/0/0/il/7228dc/2562556267/il_680x540.2562556267_onak.jpg",
+                "oldPrice": "7,540"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/9089295/r/il/31ceb1/686266185/il_340x270.686266185_mmmf.jpg",
+                "oldPrice": "9,860"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/10745498/r/il/c489d8/1337079044/il_340x270.1337079044_3imt.jpg",
+                "oldPrice": "4,4590"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/9884888/c/1361/1082/773/837/il/8defd3/3401943695/il_680x540.3401943695_lavk.jpg",
+                "oldPrice": "4,029"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/6734380/r/il/813bac/1105220681/il_340x270.1105220681_7c92.jpg",
+                "oldPrice": "10,461"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/7450512/c/1242/986/0/15/il/b5dda3/1567445612/il_340x270.1567445612_bo99.jpg",
+                "oldPrice": "17,149"
+            }
+        ],
+        "bohoDecor": [
+            {
+                "imgURL": "https://i.etsystatic.com/16087812/c/1346/1070/736/115/il/33787d/2443996649/il_680x540.2443996649_hksv.jpg",
+                "oldPrice": "671",
+                "newPrice": "469"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/26843448/c/2400/1908/0/761/il/afa750/3300454008/il_340x270.3300454008_hx7g.jpg",
+                "oldPrice": "16,275"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/9121310/r/il/ec9ef2/3484180876/il_340x270.3484180876_avm9.jpg",
+                "oldPrice": "3,822"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/26797990/r/il/24efce/2915609296/il_680x540.2915609296_lq0j.jpg",
+                "oldPrice": "4,969"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/24971419/r/il/de2334/2515062562/il_340x270.2515062562_kzvh.jpg",
+                "oldPrice": "771"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/12584295/c/1769/1406/136/605/il/e15d5f/3612210010/il_340x270.3612210010_tuw7.jpg",
+                "newPrice": "11,109",
+                "oldPrice": "13,886"
+            }
+        ],
+        "eclecticDecor": [
+            {
+                "imgURL": "https://i.etsystatic.com/25426614/c/945/751/177/0/il/b01e51/3022557643/il_680x540.3022557643_71r3.jpg",
+                "oldPrice": "3,766"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/17120056/c/750/595/0/705/il/5d3443/1670858982/il_340x270.1670858982_6dkq.jpg",
+                "oldPrice": "18,348"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/7692988/c/1841/1463/275/810/il/bed95e/2617394149/il_340x270.2617394149_htv6.jpg",
+                "oldPrice": "10,099"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/26666586/c/2250/1788/0/192/il/539eb0/3016062451/il_680x540.3016062451_eofj.jpg",
+                "oldPrice": "32,095",
+                "newPrice": "27,281"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/23554001/r/il/9026fa/3031082509/il_340x270.3031082509_qwsx.jpg",
+                "oldPrice": "105,251",
+                "newPrice": "84,201"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/7815883/r/il/2e3826/3805653996/il_340x270.3805653996_43pd.jpg",
+                "newPrice": "28,500",
+                "oldPrice": "47,500"
+            }
+        ],
+        "minimalist": [
+            {
+                "imgURL": "https://i.etsystatic.com/12929994/r/il/d4b998/1056352787/il_680x540.1056352787_rrbw.jpg",
+                "oldPrice": "188,290"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/8675800/r/il/3c77c2/1829960281/il_340x270.1829960281_kspc.jpg",
+                "oldPrice": "23,877"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/17849024/r/il/fb183e/1601754674/il_340x270.1601754674_qwt8.jpg",
+                "oldPrice": "13,009"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/17849024/r/il/fb183e/1601754674/il_340x270.1601754674_qwt8.jpg",
+                "oldPrice": "1,257"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/8287552/r/il/1c6392/1402403197/il_340x270.1402403197_jy99.jpg",
+                "oldPrice": "60,184"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/13346155/r/il/8cec57/1173836965/il_340x270.1173836965_b5yc.jpg",
+                "newPrice": "2,212",
+                "oldPrice": "2,765"
+            }
+        ]
+    },
+    "shopOurSelection": {
+        "title": "Shop our selections",
+        "elements": [
+            {
+                "title": "The Diwali Shop",
+                "imgURL": "https://i.etsystatic.com/22038449/r/il/d7ad4f/4046275650/il_340x270.4046275650_o3mk.jpg"
+            },
+            {
+                "title": "Everyday inspiration",
+                "imgURL": "https://i.etsystatic.com/18899984/r/il/9dcc31/4228096205/il_340x270.4228096205_fueu.jpg"
+            },
+            {
+                "title": "Fashion Finds",
+                "imgURL": "https://i.etsystatic.com/17600118/c/1132/903/0/0/il/8b4129/2591412730/il_340x270.2591412730_abof.jpg"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/32541884/r/il/a56807/3849973862/il_340x270.3849973862_p1w4.jpg",
+                "title": "For your home"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/30973456/c/1250/993/0/1148/il/7cfe1e/3769038215/il_340x270.3769038215_e2oq.jpg",
+                "title": "Jewellery shop"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21689103/r/il/7d8081/3547847472/il_340x270.3547847472_2iqa.jpg",
+                "title": "Kitchen and dining"
+            }
+        ]
+    },
+    "shopOurSelectionDesk": {
+        "title": "Shop our selections",
+        "subTitle": "Curated collections hand-picked by Etsy editors",
+        "elements": [
+            {
+                "title": "The Diwali Shop",
+                "imgURL": "https://i.etsystatic.com/22038449/r/il/d7ad4f/4046275650/il_340x270.4046275650_o3mk.jpg"
+            },
+            {
+                "title": "Fashion Finds",
+                "imgURL": "https://i.etsystatic.com/17600118/c/1132/903/0/0/il/8b4129/2591412730/il_340x270.2591412730_abof.jpg"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/32541884/r/il/a56807/3849973862/il_340x270.3849973862_p1w4.jpg",
+                "title": "For your home"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/30973456/c/1250/993/0/1148/il/7cfe1e/3769038215/il_340x270.3769038215_e2oq.jpg",
+                "title": "Jewellery shop"
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/21689103/r/il/7d8081/3547847472/il_340x270.3547847472_2iqa.jpg",
+                "title": "Kitchen and dining"
+            }
+        ]
+    },
+    "everydayInspiration": {
+        "smallText": "Editor's Picks",
+        "title": "Everyday inspiration",
+        "subTitle": "See more",
+        "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/Promotionals_-_DIY_Wall_Trophy_zmxtoc.mp4",
+        "elements": [
+            {
+                "price": "10,659",
+                "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/final_61961a2c1fab160101ccaf7d_471683_b5oji1.mp4"
+            },
+            {
+                "price": "3,851",
+                "videoURL": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/IMG_8207_mnzhgs.mp4"
+            },
+            {
+                "price": "1,883",
+                "imgURL": "https://i.etsystatic.com/11901825/r/il/66e226/4143573747/il_300x300.4143573747_70bv.jpg"
+            },
+            {
+                "price": "3,423",
+                "imgURL": "https://i.etsystatic.com/14414441/r/il/473531/3603792575/il_300x300.3603792575_spc7.jpg"
+            },
+            {
+                "price": "2,568",
+                "imgURL": "https://i.etsystatic.com/7942677/c/2000/2000/0/0/il/4fba5c/3654605139/il_300x300.3654605139_mxr4.jpg"
+            },
+            {
+                "price": "1968",
+                "imgURL": "https://i.etsystatic.com/21689103/r/il/00433b/3127057561/il_300x300.3127057561_3l4r.jpg"
+            }
+        ]
+    },
+    "freshBlog": {
+        "title": "Fresh from the blog",
+        "elements": [
+            {
+                "imgURL": "https://i.etsystatic.com/inv/03ca1a/4263836158/inv_620x495.4263836158_6ygrugiq.jpg?version=0",
+                "title": "Shoping Guides",
+                "subTitle": "13 Gorgeous Accessories for This Wedding Season",
+                "paragraph": "Shop classic and trendy accessories to complete your preparation for the all the shaadi functions."
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/inv/781229/4295053145/inv_425x340.4295053145_2edho3n7.jpg?version=0",
+                "title": "Shoping Guides",
+                "subTitle": "11 Jackets and Scarves for That In-Between Weather",
+                "paragraph": "From pashmina stoles to reversible jackets, these wardrobe essentials will become your fall favourites."
+            },
+            {
+                "imgURL": "https://i.etsystatic.com/inv/25d482/4004818446/inv_425x340.4004818446_ag7rsamq.jpg?version=0",
+                "subTitle": "5 Ideas for a Sip and Night With Friends",
+                "title": "Inspiration",
+                "paragraph": "Discover beginner-friendly ideas and exact steps for hosting a fun sip and paint night with friends."
+            }
+        ]
+    },
+    "etsy": {
+        "elements": [
+            {
+                "title": "A community doing good",
+                "subTitle": "Etsy is a global online marketplace, where people come together to make, sell, buy and collect unique items. We’re also a community pushing for positive change for small businesses, people, and the planet. Here are some of the ways we’re making a positive impact, together."
+            },
+            {
+                "title": "Support independent creators",
+                "subTitle": "There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole process easy, helping you connect directly with makers to find something extraordinary."
+            },
+            {
+                "title": "Peace of mind",
+                "subTitle": "Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always ready to step in for support."
+            }
+        ]
+    },
+    "footer": {
+        "shop": {
+            "title": "Shop",
+            "elements": [
+                "Gift cards",
+                "Sitemap",
+                "Etsy blog",
+                "Etsy United Kingdom",
+                "Etsy Germany",
+                "Etsy Canada"
+            ]
+        },
+        "sell": {
+            "title": "Sell",
+            "elements": [
+                "Sell on Etsy",
+                "Team",
+                "Forums",
+                "Affiliates"
+            ]
+        },
+        "about": {
+            "title": "About",
+            "elements": [
+                "Etsy,Inc",
+                "Policies",
+                "Investors",
+                "Careers",
+                "Press",
+                "Impact",
+                "Legal imprints"
+            ]
+        },
+        "help": {
+            "title": "Help",
+            "elements": [
+                "Help Center",
+                "Privacy setting"
+            ]
+        }
+    }
+}
