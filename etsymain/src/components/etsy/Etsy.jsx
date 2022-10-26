@@ -1,18 +1,17 @@
 import React from 'react'
 import './Etsy.css'
 import data from '../../dataBase.json'
-import MapCard from '../Main/MapCard'
+import { TextCard } from '../main/Card'
 
 function Etsy() {
     const dataEtsy = data.etsy.elements
-    // console.log(dataEtsy)
     return (
         <div className="etsy-conatainer-background">
             <div className='etsy-container'>
                 <p className='etsy-heading'>What is Etsy?</p>
                 <p className="sub-heading">Read our wonderfully weird story</p>
                 <div className="etsy-card-container">
-                    <MapCard data={dataEtsy}></MapCard>
+                    <TextCard data={dataEtsy}></TextCard>
                 </div>
                 <div className="question">
                     <h4>Have a question? Well, we've got some answers.</h4>

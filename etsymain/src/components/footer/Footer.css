@@ -6,7 +6,8 @@
     flex-direction: column;
     color: white;
     cursor: help;
-    padding-top: 20px;
+    padding-top: 32px;
+    padding-bottom: 12px;
 }
 
 .impact-message svg {
@@ -21,6 +22,7 @@
     text-decoration: underline;
     text-decoration-style: dashed;
     text-underline-position: under;
+    text-align: center;
 }
 
 
