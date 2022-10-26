@@ -56,4 +56,12 @@
     .circular-card img {
         max-width: 112px;
     }
+
+    .circular-card .img-container {
+        margin-top: 20px;
+    }
+
+    .circular-card h1 {
+        font-size: 16px;
+    }
 }
