@@ -6,7 +6,7 @@ import MapCard from './MapCard'
 function ShopSelection(props) {
     const title = props.data.title
     const elements = props.data.elements
-    console.log(title, elements)
+    // console.log(title, elements)
     return (
         <div className='shop-selection'>
             <div className="title-container">

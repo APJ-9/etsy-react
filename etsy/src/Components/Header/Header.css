@@ -6,7 +6,7 @@
     left: 0;
     z-index: 200;
     background-color: #fff;
-    width: 100vw;
+    width: 100%;
 }
 
 .header-top {
@@ -73,8 +73,13 @@ button:focus {
 
 }
 
+.icons-and-btn {
+    display: flex;
+}
+
 .login-svg,
-.cart-svg {
+.cart-svg,
+.heart-svg {
     min-width: 24px;
     width: 24px;
 
@@ -91,10 +96,105 @@ button:focus {
     margin-bottom: 2px;
 }
 
+.hide-mobile {
+    display: none;
+}
+
 @media screen and (min-width: 480px) {
     .etsy-logo {
         height: 50px;
+        margin-right: 6px;
     }
 }
 
-@media screen and (min-width:900px) {}
+@media screen and (min-width:900px) {
+    .header {
+        padding: 0;
+    }
+
+    .hide-mobile {
+        display: flex;
+    }
+
+    .header-top {
+        padding: 12px 36px;
+    }
+
+    .sign-in {
+        white-space: nowrap;
+        padding: 9px 15px;
+        margin-right: 6px;
+        border: 2px;
+        min-height: 36px;
+        min-width: 36px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .icons-and-btn {
+        display: flex;
+        align-items: center;
+    }
+
+    .icons-and-btn .heart-svg,
+    .icons-and-btn .cart-svg {
+        min-width: 24px;
+        min-height: 24px;
+        margin: 12px;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    .search-section {
+        height: 48px;
+        padding-right: 18px;
+        overflow: hidden;
+    }
+
+    .search-bar {
+        height: 100%;
+        width: 100%;
+    }
+
+    .search-btn {
+        /* background-color: #F1641E !important; */
+        height: 100%;
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .header-bottom {
+        padding: 0 36px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .header-bottom .list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 12px;
+    }
+
+    .header-bottom .list p {
+        font-size: 13px;
+        padding: 0 5px;
+        margin-top: 4px;
+        margin-right: 12px;
+        line-height: normal;
+        padding-bottom: 12px;
+    }
+
+    .gift-header {
+        display: flex;
+        align-items: center;
+        padding-bottom: 12px;
+    }
+
+    .header-bottom .list .hello:hover {
+        border-bottom: 1px solid black;
+    }
+
+}

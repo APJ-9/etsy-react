@@ -26,10 +26,14 @@
 }
 
 .etsy-card-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: nowrap;
+    gap: 50px;
     padding-top: 36px;
     margin-bottom: 6px;
+    justify-content: center;
+    align-items: center;
 }
 
 .etsy-card-container .card {
@@ -39,24 +43,26 @@
 }
 
 .etsy-card-container .card .main-title {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 600;
+    /* margin-bottom: 18px; */
+    text-align: left;
 }
 
 .etsy-card-container .card .sub-title {
     font-weight: 400;
     font-size: 17px;
     font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+    text-align: left;
 }
 
-.etsy-card-container .question {
+.etsy-container .question {
     width: 100%;
     text-align: center;
     font-size: 18px;
 }
 
-.etsy-card-container .question button {
+.etsy-container .question button {
     background: none;
     border: 2px solid #222;
     padding: 12px 18px;
@@ -69,6 +75,6 @@
     color: #222;
 }
 
-.etsy-card-container .question button:focus {
+.etsy-container .question button:focus {
     outline: none;
 }

@@ -35,10 +35,10 @@ function Header() {
                 <div className="list-item">
                     {
                         DB.map((element, idx) => (
-                            <div key={idx} className="hover-effect">
-                                <div className="element">
-                                    <List value={element} />
-                                </div>
+                            // <div key={idx} className="hover-effect">
+                            <div className="element">
+                                <List value={element} />
+                                {/* </div> */}
                             </div>
                         ))
                     }

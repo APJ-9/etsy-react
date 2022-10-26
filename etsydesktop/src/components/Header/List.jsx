@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './List.css'
+// import './List.css'
 import Modal from './Modal'
 
 function List({ value }) {

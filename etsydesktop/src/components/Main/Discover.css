@@ -11,7 +11,7 @@
     position: absolute;
     top: 0;
     left: -400px;
-    height: 124px;
+    height: 144px;
     width: 200%;
     z-index: -12;
 
@@ -19,20 +19,21 @@
 
 .discover-section .heading {
     font-family: none;
-    font-size: 22px;
+    font-size: 37px;
     letter-spacing: 1px;
     text-align: center;
     font-weight: 100;
     padding-top: 20px;
     line-height: 30px;
     background-color: #D7E6F5;
+    margin-bottom: 10px;
 }
 
 .discover-section .card-container {
     display: flex;
     padding: 21px 7px;
     row-gap: 20px;
-    justify-content: space-around;
+    justify-content: center;
     /* background-color: #D7E6F5; */
 }
 
@@ -43,6 +44,9 @@
     flex-direction: column;
     padding-bottom: 5px;
     border-bottom: 2px solid white;
+    border-radius: 0px;
+    overflow: unset;
+    margin: 0 30px;
 
 }
 
@@ -62,7 +66,8 @@
 .discover-section .card-container img {
     border-radius: 50%;
     overflow: hidden;
-    height: 6.4rem;
+    height: 6.9rem;
+
 }
 
 .discover-section .card-container .card:hover img {
@@ -74,6 +79,7 @@
 }
 
 .discover-section .card-container .card:hover {
-    border-bottom: 2px solid #222;
+    border-radius: none;
+    border-bottom: 2px solid #222 !important;
 
 }

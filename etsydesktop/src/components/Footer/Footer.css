@@ -205,6 +205,15 @@
         display: block;
     }
 
+    .list-footer {
+        margin-top: 10px;
+    }
+
+    .sub-footer>* {
+        padding: 5px;
+        margin-left: 20px;
+    }
+
     .footer-section svg {
         display: none;
     }

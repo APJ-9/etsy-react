@@ -4,7 +4,7 @@ import MapCard from './MapCard'
 
 
 function Discover(props) {
-    console.log(props.discover)
+    // console.log(props.discover)
     const discover = props.discover
     return (
         <div className='discover-section'>

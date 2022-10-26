@@ -13,13 +13,14 @@ function Etsy() {
                 <p className="sub-heading">Read our wonderfully weird story</p>
                 <div className="etsy-card-container">
                     <MapCard data={dataEtsy}></MapCard>
-                    <div className="question">
-                        <h4>Have a question? Well, we've got some answers.</h4>
-                        <a href="https://www.etsy.com/help?ref=hp_what_is_etsy_help_center">
-                            <button>Go to Help Center</button>
-                        </a>
-                    </div>
                 </div>
+                <div className="question">
+                    <h4>Have a question? Well, we've got some answers.</h4>
+                    <a href="https://www.etsy.com/help?ref=hp_what_is_etsy_help_center">
+                        <button>Go to Help Center</button>
+                    </a>
+                </div>
+
             </div>
         </div>
     )

@@ -33,6 +33,18 @@
     text-align: center;
 }
 
+.diwali-mobile .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diwali-mobile .see-more p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #222;
+}
+
 .diwali-tab-desktop {
     display: none;
 }
