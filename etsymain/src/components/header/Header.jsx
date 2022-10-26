@@ -2,17 +2,20 @@ import React from 'react'
 import './Header.css'
 import Input from './Input'
 // import List from './List'
-import data from '../../dataBase.json'
+import dataBase from '../../dataBase.json'
 import EtsyLogo from './EtsyLogo'
-import MenuIcon from './MenuIcon'
+import { MenuBar, MenuIcon } from './Menu'
 
 function Header() {
-    const DB = data.header
-    console.log(DB)
+    const data = dataBase.header
+    console.log(data)
     return (
         <div className='header'>
             <div className="header-top">
                 <EtsyLogo />
+                <div className="input-desktop">
+                    <Input />
+                </div>
                 <div className="icons-and-btn">
                     <button className='sign-in' >Sign in</button>
                     <div className="svg-container-background">
@@ -33,6 +36,9 @@ function Header() {
             <div className="header-bottom">
                 <MenuIcon />
                 <Input />
+            </div>
+            <div className="header-bottom-desktop">
+                <MenuBar MenuList={data} />
             </div>
 
         </div>

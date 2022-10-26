@@ -20,6 +20,12 @@
     width: 60px;
 }
 
+@media screen and (min-width:480px) {
+    .etsy-logo {
+        width: 80px;
+    }
+}
+
 .icons-and-btn {
     display: flex;
     align-items: center;
@@ -55,4 +61,38 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-bottom-desktop,
+.input-desktop {
+    display: none;
+}
+
+@media screen and (min-width:900px) {
+
+    .header-bottom-desktop,
+    .input-desktop {
+        display: flex;
+        width: 100%;
+    }
+
+    .header-bottom {
+        display: none;
+    }
+
+    .etsy-logo {
+        width: 80px;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .header-top {
+        padding: 12px 36px;
+    }
+
+    .header-bottom-desktop {
+        padding: 0 36px;
+    }
 }

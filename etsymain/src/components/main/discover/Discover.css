@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@200;300&display=swap');
+
+.discover {
+    font-family: 'Noto Serif Georgian', serif;
+    position: relative;
+    margin-bottom: 42px;
+}
+
+.discover h2 {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 18px 12px;
+    padding-bottom: 0;
+    color: #222;
+    background-color: #D7E6F5;
+    text-align: center;
+    letter-spacing: 0.35px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.discover-card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 10px; */
+    align-items: start;
+    justify-items: center;
+    padding: 0 6px;
+}
+
+.discover-background {
+    background-color: #D7E6F5;
+    position: absolute;
+    top: 0;
+    left: -700px;
+    height: 81%;
+    width: 500%;
+    z-index: -1;
+}
+
+
+
+@media screen and (min-width:640px) {
+    .discover-card-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+
+    }
+
+    .discover h2 {
+        font-size: 28px;
+        line-height: 42px;
+
+    }
+
+    .discover-background {
+        height: 67%;
+    }
+}
+
+@media screen and (min-width:900px) {
+
+
+
+    .discover h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .discover-card-container {
+        justify-content: center;
+        gap: 2%;
+
+    }
+}

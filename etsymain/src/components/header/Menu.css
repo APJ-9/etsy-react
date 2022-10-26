@@ -1,0 +1,28 @@
+.menu-icon {
+    margin-right: 6px;
+}
+
+.menu-icon-container {
+    width: 24px;
+}
+
+.menu-bar {
+    width: 100%;
+}
+
+.menu-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    width: 100%;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.menu-bar-container>* {
+    min-width: 45px;
+    margin: 0 3px;
+    color: #222;
+}
