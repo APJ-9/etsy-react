@@ -1,3 +1,3 @@
 # etsy-react
 View the site : [Etsy](https://etsy-react-apj.netlify.app).
-etsy main is the final build project the other 2 folder are initial state of the site.
+etsymain is the final build project the other 2 folder are initial state of the site.
