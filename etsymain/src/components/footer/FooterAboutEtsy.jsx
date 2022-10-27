@@ -33,17 +33,24 @@ function FooterAboutEtsy() {
                 <>
                     <Button title={about.title} list={about.list} show={false} />
                 </>
-                <>
-                    <button className={helpState ? "heading-btn active" : "heading-btn"} onClick={clickHandle}>
+                <div className='list'>
+                    <div className={helpState ? "heading-btn active" : "heading-btn"} onClick={clickHandle}>
                         <h1>Help</h1>
                         <svg className='arrow-down' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="#ffffff" d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z"></path></svg>
-                    </button>
+                    </div>
                     {
-                        helpState && <div className="footer-main-items">
+                        helpState && <div className="footer-main-items mobile-footer">
                             <p>Help Centre</p>
                             <p>Privacy setting</p>
                         </div>
                     }
+                    <div className="heading-btn tabdesk-footer">
+                        <h1>Help</h1>
+                    </div>
+                    <div className="footer-main-items tabdesk-footer">
+                        <p>Help Centre</p>
+                        <p>Privacy setting</p>
+                    </div>
                     <div className="etsy-icons">
                         <div className="download-etsy">
                             <span className='empty'>empty</span>
@@ -70,7 +77,7 @@ function FooterAboutEtsy() {
                             </div>
                         </div>
                     </div>
-                </>
+                </div>
             </div>
         </div>
     )

@@ -1,6 +1,8 @@
 .footer-main-section {
     position: relative;
     padding: 12px 24px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .footer-main-section-background {
@@ -113,6 +115,7 @@
 
 .footer-main-items>* {
     margin-bottom: 4px;
+    padding: 4px 0;
 }
 
 .footer-main-items>*:hover {
@@ -120,11 +123,39 @@
     cursor: pointer;
 }
 
+.tabdesk-footer {
+    display: none;
+}
+
 @media screen and (min-width: 640px) {
     .arrow-down {
         display: none;
     }
 
-    .heading-btn {}
+    .heading-btn {
+        display: none;
+    }
 
+    .mobile-footer {
+        display: none;
+    }
+
+    .tabdesk-footer {
+        display: block;
+    }
+
+    .list-item {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .footer-main-items>* {
+        font-size: 13px;
+        min-width: 90px;
+    }
+
+    .social-media-icons {
+        flex-wrap: wrap;
+    }
 }
