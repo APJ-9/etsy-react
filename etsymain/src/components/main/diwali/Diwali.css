@@ -1,0 +1,131 @@
+.diwali-mobile {
+    display: block;
+}
+
+.diwali-mobile-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    /* gap: 0px 0px; */
+    grid-auto-flow: row;
+    gap: 12px;
+    padding: 24px;
+}
+
+.diwali-mobile-container>* {
+    max-height: 180px;
+    aspect-ratio: 1;
+}
+
+.diwali-mobile p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #595959;
+    text-align: center;
+}
+
+.diwali-mobile h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222;
+    text-align: center;
+}
+
+.diwali-mobile .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diwali-mobile .see-more p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #222;
+}
+
+.diwali-tab-desktop {
+    display: none;
+}
+
+.diwali-tab-desktop .title-area {
+    grid-area: title-area;
+}
+
+.diwali-tab-desktop .sub-heading {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width:640px) {
+
+    .diwali-mobile {
+        display: none;
+    }
+
+    .diwali-tab-desktop {
+        max-height: 395px;
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 12px 12px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "title-area title-area card-1 card-2 card-3"
+            "card-4 card-5 card-6 description description";
+    }
+
+    .diwali-tab-desktop .title-area {
+        grid-area: title-area;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #222;
+    }
+
+    .diwali-tab-desktop .title-area p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        color: #595959;
+    }
+
+    .diwali-tab-desktop .title-area h1 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        padding-bottom: 24px;
+        margin-top: 6px;
+    }
+
+    .diwali-tab-desktop .title-area h3 {
+        font-size: 16px;
+    }
+
+    .diwali-tab-desktop .description {
+        grid-area: description;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width:900px) {
+
+    .diwali-mobile {
+        display: none;
+    }
+
+    .diwali-tab-desktop {
+        max-height: none;
+        grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+        grid-template-areas:
+            "title-area  card-1 card-2 card-3"
+            "card-4 card-5 card-6  description";
+    }
+}

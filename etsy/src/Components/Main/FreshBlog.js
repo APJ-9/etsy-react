@@ -4,7 +4,7 @@ import MapCard from './MapCard'
 function FreshBlog(props) {
     const title = props.data.title
     const elements = props.data.elements
-    console.log(title, elements)
+    // console.log(title, elements)
     return (
         <div className='fresh-blog'>
             <div className="title-container">

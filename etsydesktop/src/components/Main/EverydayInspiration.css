@@ -1,0 +1,89 @@
+.everyday-inspiration-container {
+    margin: 0 36px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.ei-section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "heading heading card-1 card-2"
+        "card-3 card-4 card-5 card-6";
+    gap: 10px;
+    padding: 24px;
+}
+
+.ei-section1 .card {
+    border-radius: 5px;
+    max-width: 191px;
+    aspect-ratio: 1;
+}
+
+.heading {
+    grid-area: heading;
+}
+
+.card-1 {
+    grid-area: card-1;
+}
+
+.card-2 {
+    grid-area: card-2;
+}
+
+.card-3 {
+    grid-area: card-3;
+}
+
+.card-4 {
+    grid-area: card-4;
+}
+
+.card-5 {
+    grid-area: card-5;
+}
+
+.card-6 {
+    grid-area: card-6;
+}
+
+.ei-section1 .vi-container {
+    position: relative;
+}
+
+.ei-section1 .vi-container .price {
+    position: absolute;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    bottom: 0;
+    left: 10px;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.ei-section1 .vi-container:hover .price {
+    opacity: 1;
+    bottom: 10px;
+}
+
+.ei-section1 .heading {
+    display: flex;
+    flex-direction: column;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+}
+
+.ei-section2 {
+    position: relative;
+}

@@ -1,0 +1,104 @@
+.header {
+    padding: 12px 36px 0 36px;
+    width: 100%;
+    border-bottom: 2px solid #f4f4f4;
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* z-index: 12; */
+    background-color: white;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+}
+
+.etsy-logo {
+    fill: #F1641E;
+    margin: 1px 6px 1px 1px;
+    width: 80px;
+}
+
+.icons-and-btn {
+    display: flex;
+}
+
+.icons-and-btn .sign-in {
+    white-space: nowrap;
+    border: none;
+    background: none;
+    font-weight: 600;
+    padding: 9px 15px;
+    border-radius: 50px;
+}
+
+.header .heart-svg {
+    padding: 20px;
+    /* background-color: #F1641E; */
+    position: relative;
+    border-radius: 50%;
+}
+
+.cart-svg {
+    padding: 20px;
+    /* background-color: #F1641E; */
+    position: relative;
+    border-radius: 50%;
+}
+
+.cart-svg:hover,
+.sign-in:hover,
+.header .heart-svg:hover {
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+
+.header .svg-container {
+    position: absolute;
+    /* background-color: yellow; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .svg-container svg {
+    width: 24px;
+}
+
+.header-bottom {
+    padding-top: 10px;
+}
+
+.header-bottom .list-item {
+    display: flex;
+    /* align-items: center; */
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.header-bottom .list-item .element {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.header-bottom .list-item .element:hover,
+.gift-header:hover {
+    border-bottom: 2px solid black;
+}
+
+.gift-header {
+    display: flex;
+    /* padding: 18px 0; */
+    height: 100%;
+    /* background-color: red; */
+    border-bottom: 2px solid white;
+
+}

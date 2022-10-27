@@ -1,0 +1,38 @@
+.freshblog {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.freshblog .shop-cards .card img {
+    object-fit: cover;
+    height: 100%;
+    width: 107%;
+}
+
+.freshblog .card .title {
+    display: flex;
+    width: 100%;
+    height: 100% !important;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.freshblog .card .title .main-title {
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.freshblog .card .title .sub-title {
+    font-size: 24px;
+    line-height: 1.3;
+    color: #222;
+}
+
+.freshblog .card .title .paragraph {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.3;
+}

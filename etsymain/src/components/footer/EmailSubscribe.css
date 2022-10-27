@@ -1,0 +1,65 @@
+.email-sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #D7E6F5;
+    text-align: center;
+    /* border-radius: 8px; */
+    padding: 18px 24px 20px;
+
+}
+
+.email-sub-container p {
+    color: #222;
+    margin-bottom: 12px;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.email-sub-container .email-cont {
+    position: relative;
+    box-shadow: 1px 2px 4px 0 rgb(34 34 34 / 10%) inset;
+    background: #FFFFFF;
+    padding: 15px 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.email-sub-container .email-cont input {
+    background: none;
+    border: none;
+    margin-left: 10px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.email-sub-container .email-cont input:focus {
+    outline: none;
+}
+
+.email-sub-container .email-cont input::placeholder {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.email-sub-container .email-cont .sub {
+    position: absolute;
+    right: 15px;
+    background: white;
+    padding-left: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-right: 10px; */
+}

@@ -1,4 +1,38 @@
 {
+    "header": [
+        {
+            "title": "Diwali Favourites",
+            "elements": []
+        },
+        {
+            "title": "Jewellery & Accessories",
+            "elements": []
+        },
+        {
+            "title": "Cloathing & Shoes",
+            "elements": []
+        },
+        {
+            "title": "Home & Living",
+            "elements": []
+        },
+        {
+            "title": "Wedding & Party",
+            "elements": []
+        },
+        {
+            "title": "Toys & Entertainment",
+            "elements": []
+        },
+        {
+            "title": "Arts & Collection",
+            "elements": []
+        },
+        {
+            "title": "Craft Supplies",
+            "elements": []
+        }
+    ],
     "discover": {
         "title": "Discover one-of-a-kind from independent creators",
         "elemnts": [

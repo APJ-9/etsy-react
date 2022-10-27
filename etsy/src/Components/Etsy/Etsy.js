@@ -5,7 +5,7 @@ import MapCard from '../Main/MapCard'
 
 function Etsy() {
     const dataEtsy = data.etsy.elements
-    console.log(dataEtsy)
+    // console.log(dataEtsy)
     return (
         <div className='etsy-container'>
             <p className='etsy-heading'>What is Etsy?</p>
