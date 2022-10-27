@@ -152,6 +152,38 @@ img {
     display: none;
 }
 
+.image-text-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 50%;
+    max-width: 45%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 5px;
+    border: 1px solid #22222226;
+}
+
+.image-text-container .image-container {
+    flex-grow: 1;
+}
+
+.image-text-container .text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+}
+
+.image-text-container .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px;
+    color: #222;
+    text-align: center;
+}
+
 @media screen and (min-width:640px) {
     .circular-card img {
         max-width: 84px;
@@ -175,6 +207,8 @@ img {
         flex-grow: 1;
         flex-basis: 100%;
         max-width: 100%;
+        font-size: 20px;
+        line-height: 28px;
         justify-content: flex-start;
         padding: 0 18px 18px;
     }
@@ -190,6 +224,16 @@ img {
         line-height: 18px;
     }
 
+    .image-text-container {
+        flex-basis: 33.33333%;
+        max-width: 30.21555%;
+        margin: 9px;
+    }
+
+    .image-text-container .title {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (min-width:900px) {
@@ -203,5 +247,17 @@ img {
 
     .circular-card h1 {
         font-size: 16px;
+    }
+
+    .image-text-container {
+        flex-basis: 20%;
+        max-width: 16%;
+        margin: 2px;
+    }
+
+    .image-text-container .text-container .title {
+        min-height: 78px;
+        font-size: 20px;
+        line-height: 28px;
     }
 }

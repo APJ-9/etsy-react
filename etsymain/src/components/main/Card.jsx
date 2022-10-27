@@ -87,3 +87,16 @@ export const FreshCard = ({ title, subTitle, imgURL, description }) => {
         </div>
     )
 }
+
+export const ImageTextCard = ({ title, imgURL }) => {
+    return (
+        <div className='image-text-container'>
+            <div className="img-container">
+                <img src={imgURL} alt="" />
+            </div>
+            <div className="text-container">
+                <p className='title'>{title}</p>
+            </div>
+        </div>
+    )
+}
