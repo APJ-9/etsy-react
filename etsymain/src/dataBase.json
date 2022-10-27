@@ -479,46 +479,5 @@
                 "subTitle": "Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always ready to step in for support."
             }
         ]
-    },
-    "footer": {
-        "shop": {
-            "title": "Shop",
-            "elements": [
-                "Gift cards",
-                "Sitemap",
-                "Etsy blog",
-                "Etsy United Kingdom",
-                "Etsy Germany",
-                "Etsy Canada"
-            ]
-        },
-        "sell": {
-            "title": "Sell",
-            "elements": [
-                "Sell on Etsy",
-                "Team",
-                "Forums",
-                "Affiliates"
-            ]
-        },
-        "about": {
-            "title": "About",
-            "elements": [
-                "Etsy,Inc",
-                "Policies",
-                "Investors",
-                "Careers",
-                "Press",
-                "Impact",
-                "Legal imprints"
-            ]
-        },
-        "help": {
-            "title": "Help",
-            "elements": [
-                "Help Center",
-                "Privacy setting"
-            ]
-        }
     }
 }

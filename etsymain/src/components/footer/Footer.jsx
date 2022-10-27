@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import EmailSubscribe from './EmailSubscribe'
+import FooterAboutEtsy from './FooterAboutEtsy'
 
 function Footer() {
     return (
@@ -16,7 +17,9 @@ function Footer() {
                 </svg>
                 <p className='text'>Etsy is powered by 100% renewable electricity.</p>
             </div>
-            <div className="main-section"></div>
+            <div className="main-section">
+                <FooterAboutEtsy />
+            </div>
             <div className="footer-end">
                 <div className="footer-end-background"></div>
                 <div className="location">
