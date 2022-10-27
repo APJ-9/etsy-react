@@ -446,20 +446,20 @@
         "elements": [
             {
                 "imgURL": "https://i.etsystatic.com/inv/03ca1a/4263836158/inv_620x495.4263836158_6ygrugiq.jpg?version=0",
-                "title": "Shoping Guides",
-                "subTitle": "13 Gorgeous Accessories for This Wedding Season",
+                "SubTitle": "Shoping Guides",
+                "title": "13 Gorgeous Accessories for This Wedding Season",
                 "paragraph": "Shop classic and trendy accessories to complete your preparation for the all the shaadi functions."
             },
             {
                 "imgURL": "https://i.etsystatic.com/inv/781229/4295053145/inv_425x340.4295053145_2edho3n7.jpg?version=0",
-                "title": "Shoping Guides",
-                "subTitle": "11 Jackets and Scarves for That In-Between Weather",
+                "SubTitle": "Shoping Guides",
+                "title": "11 Jackets and Scarves for That In-Between Weather",
                 "paragraph": "From pashmina stoles to reversible jackets, these wardrobe essentials will become your fall favourites."
             },
             {
                 "imgURL": "https://i.etsystatic.com/inv/25d482/4004818446/inv_425x340.4004818446_ag7rsamq.jpg?version=0",
-                "subTitle": "5 Ideas for a Sip and Night With Friends",
-                "title": "Inspiration",
+                "title": "5 Ideas for a Sip and Night With Friends",
+                "SubTitle": "Inspiration",
                 "paragraph": "Discover beginner-friendly ideas and exact steps for hosting a fun sip and paint night with friends."
             }
         ]

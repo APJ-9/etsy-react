@@ -58,16 +58,6 @@
     align-items: center;
 }
 
-.arrow {
-    width: 18px;
-    margin-left: 6px;
-    transition: transform .3s;
-}
-
-.arrow-container:hover .arrow {
-    transform: translateX(10px);
-}
-
 @media screen and (min-width:640px) {
 
     .diwali-mobile {
